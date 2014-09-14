@@ -1,7 +1,11 @@
-# Reproducible Research: Peer Assessment 1
-Marta Kaczmarz  
-Sunday, September 14, 2014  
 
+---
+title: "Reproducible Research: Peer Assessment 1"
+author: "Marta Kaczmarz"
+date: "Sunday, September 14, 2014"
+output: html_document
+
+---
 
 This is a report (R mark document) that answers the questions from Peer Assessment 1. 
 
@@ -44,7 +48,7 @@ hist(tot.no.steps, main = "Hisogram of the total number of steps",
       xlab = "number of steps taken each day", col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-4](./PA1_template_files/figure-html/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 
 Then I calculated the mean and median total number of steps taken per day:
 
@@ -85,7 +89,7 @@ ggplot(avg.steps,aes(interval ,mean.steps)) + geom_line()+
   ylab('avg. number of steps')
 ```
 
-![plot of chunk unnamed-chunk-6](./PA1_template_files/figure-html/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
   
 Next
 I tried to answer to the qestion *Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?*:
@@ -168,7 +172,7 @@ hist(tot.no.steps.new, main = "Hisogram of the total number of steps",
       xlab = "number of steps taken each day", col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-12](./PA1_template_files/figure-html/unnamed-chunk-12.png) 
+![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12.png) 
 
 Mean and median total number of steps taken per day:
 
@@ -257,4 +261,4 @@ plot(avg.steps.weekday, type = "l", main = "weekday", ylab = "Number of steps")
 plot(avg.steps.weekend, type = "l", main = "weekend",ylab = "Number of steps")
 ```
 
-![plot of chunk unnamed-chunk-17](./PA1_template_files/figure-html/unnamed-chunk-17.png) 
+![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17.png) 
