@@ -2,10 +2,11 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 author: "Marta Kaczmarz"
-date: "Sunday, September 14, 2014"
+date: "Sunday, October 18, 2014"
 output: html_document
 
 ---
+# Reproducible Research: Peer Assessment 1
 
 This is a report (R mark document) that answers the questions from Peer Assessment 1. 
 
